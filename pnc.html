@@ -8914,14 +8914,14 @@ function showCalendar(month, year) {
         
   }
   
-  var BirthDay = "Birthday: " + correctbirthdaytostring + "\n\n";
+  var BirthDay = "Ngày sinh/Birthday: " + correctbirthdaytostring + "\n\n";
   var expressionNumber = document.getElementById("namestotal").value;
   var desireNumber = document.getElementById("VowelsT").value;
   var intimateNumber = document.getElementById("ConsonantsT").value; 
   
-  var expressionString = "Expression/Destiny Number: " + expressionNumber + "\n\n";
-  var desireString = "Desire Number: " + desireNumber + "\n\n";
-  var intimateString = "Intimate/Personality Number: " + intimateNumber + "\n\n";
+  var expressionString = "Số Mệnh/Expression/Destiny Number: " + expressionNumber + "\n\n";
+  var desireString = "Số Nội Tâm/Desire Number: " + desireNumber + "\n\n";
+  var intimateString = "Nhân cách/Thái độ/Intimate/Personality Number: " + intimateNumber + "\n\n";
   
   var Maturity_Master = 0;
   var MaturityNumbers = newpath + namestotalsfinal2;
@@ -8943,7 +8943,7 @@ function showCalendar(month, year) {
         
   }
   
-  var MaturityNumber = "Maturity Number: " + MaturityNumbers + "\n\n";
+  var MaturityNumber = "Trưởng Thành/Maturity Number: " + MaturityNumbers + "\n\n";
   
   var rationalget = document.getElementById("thenames").value;
   var rational1 = "";
@@ -9132,11 +9132,11 @@ function showCalendar(month, year) {
   if (b4rational.length > 1)
   if (b4rational != 22)
   if (b4rational != 11)
-  var RationalNumber = "Rational Thought Number: " + rational3 + " / " + rational + "\n\n";
+  var RationalNumber = "Tư duy lý trí/Rational Thought Number: " + rational3 + " / " + rational + "\n\n";
   if (b4rational == 22 || b4rational == 11)
-  var RationalNumber = "Rational Thought Number: " + rational3 + "\n\n";
+  var RationalNumber = "Tư duy lý trí/Rational Thought Number: " + rational3 + "\n\n";
   if (b4rational.length == 1)
-  var RationalNumber = "Rational Thought Number: " + rational3 + "\n\n";  
+  var RationalNumber = "Tư duy lý trí/Rational Thought Number: " + rational3 + "\n\n";  
   
   var BalanceNumber = "";
   var initals = 0;
@@ -9186,16 +9186,16 @@ function showCalendar(month, year) {
   }
   
   if (initial2length > 1)
-  BalanceNumber = "Balance Number: " + initial1sum + " / " + initial2sum + "\n\n";
+  BalanceNumber = "Cân Bằng/Balance Number: " + initial1sum + " / " + initial2sum + "\n\n";
   if (initial2length == 1)
-  BalanceNumber = "Balance Number: " + initial1sum +  "\n\n";
+  BalanceNumber = "Cân Bằng/Balance Number: " + initial1sum +  "\n\n";
   
   
   var firstset = document.getElementById("Vowels").value;
   var secondset = document.getElementById("Consonants").value;
   var theset = firstset.toString() + secondset.toString();
   
-  var HiddenPassionNumber = "Hidden Passion Number: " + masterRepeat(theset) + "\n\n";
+  var HiddenPassionNumber = "Đam mê tiềm ẩn/Hidden Passion Number: " + masterRepeat(theset) + "\n\n";
   
   var confident = theset.length;
   var confidentString = theset.split("");
@@ -9233,9 +9233,9 @@ function showCalendar(month, year) {
   }
   var confidencenumber = confidencenumber1 + confidencenumber2 + confidencenumber3 + confidencenumber4 + confidencenumber5 + confidencenumber6 + confidencenumber7 + confidencenumber8 + confidencenumber9;
   
-  var Confidence = "Subconscious Confidence Number: " + confidencenumber + "\n\n";
+  var Confidence = "Sức mạnh tiềm thức/Subconscious Confidence Number: " + confidencenumber + "\n\n";
   
-  var LifePathPeriods = "Life Path Periods: " + lifepathperiods + "\n\n";
+  var LifePathPeriods = "Vòng đời/Life Path Periods: " + lifepathperiods + "\n\n";
   
   var FullName = "Full Name:" + "\n\n";
   var VowelsString = document.getElementById("Vowels").value + " = " + desireNumber + "\n";
@@ -9271,15 +9271,15 @@ function showCalendar(month, year) {
                            "Self-Esteem: " + matrix13 + "\n" + "Work: " + matrix14 + "\n" + "Talent: " + matrix15 + "\n" + "Spirit/Temp: " + matrix16 + " / " + matrix17; */
                            
     var PsychoMatrixString = "Psychomatrix: " + "\n\n" + "Main abilities (square's cells)\n\n" + 
-                           "Character/Will: " + matrix1  + "\n" +
-                           "Vital/Energy: " + matrix5  + "\n" +
-                           "Cognitive/Creative: " + matrix9 + "\n" +
-                           "Health/Beauty: " + matrix2 + "\n" +
-                           "Logic/Intuition: " + matrix6 +  "\n" +
-                           "Labor/Skill: " + matrix10 + "\n" +
-                           "Luck: " + matrix3 + "\n" +
-                           "Duty: " + matrix7 + "\n" +
-                           "Intellect/Memory: " + matrix11 + "\n\n"  
+                           "Tính cách/Character/Will: " + matrix1  + "\n" +
+                           "Sự sống/Năng lượng/Vital/Energy: " + matrix5  + "\n" +
+                           "Nhận thức/Sáng tạo/Cognitive/Creative: " + matrix9 + "\n" +
+                           "Sức Khỏe/Sắc Đẹp/Health/Beauty: " + matrix2 + "\n" +
+                           "Logic/Trực giác/Intuition: " + matrix6 +  "\n" +
+                           "Lao động/Kỹ Năng/Labor/Skill: " + matrix10 + "\n" +
+                           "May mắn/Luck: " + matrix3 + "\n" +
+                           "Nhiệm vụ/Duty: " + matrix7 + "\n" +
+                           "Trí tuệ/trí nhớ/Intellect/Memory: " + matrix11 + "\n\n"  
                            
                            + "Secondary abilities (lines and diagonals)\n\n" +
                            "Self-Esteem:  (Line «1-2-3») " + matrix13 + "\n" + "Work:  (Line «4-5-6») " + matrix14 + "\n" + "Talent: (Line «7-8-9») " + matrix15 + "\n" + "Purpose:  (Line «1-4-7») " + matrix4 + "\n" + "Family: (Line «2-5-8») " + matrix8 + "\n" + "Habits:  (Line «3-6-9») " + matrix12 + "\n" + "Spirit:  (Diagonal «1-5-9») " + matrix16 + "\nTemp: (Diagonal «3-5-7») " + matrix17;                           
@@ -9494,7 +9494,7 @@ function showCalendar(month, year) {
   //////////////// END OF ELEMENTS //////////////   
    
    
-  finalString = title + mydecoration + "\n# " + decorate + " #\n" + mydecoration + "\n\n" + "Life Path Number: " + MyPathNumber + "\n\n" + BirthDay + expressionString + desireString + intimateString + "Karmic Debts " + returnKarmicDebts(karmic_string)+ "\n\n" + MaturityNumber + RationalNumber + "Karmic Lessons " + karmiclessons + "\n\n" + BalanceNumber + HiddenPassionNumber + Confidence + "Challenges " + returnChallenge(challenge_string) + "\n\n" + "Pinnacles " + returnPinnacle(pinnacle_string) + "\n\n" + "Life Path Periods " + lifepathperiods + "\n\n" + "Life Path - Expression Bridge number " + bridge1.toString() + "\n\n" + "Heart's Desire - Personality Bridge number " + bridge2.toString() +  "\n\n"+ "Elements:\n\n" +final_elements_string  +"\n\n" + FinalFullName + ShortNameTotals + PsychoMatrixString;
+  finalString = title + mydecoration + "\n# " + decorate + " #\n" + mydecoration + "\n\n" + "Số Đường đời/Life Path Number: " + MyPathNumber + "\n\n" + BirthDay + expressionString + desireString + intimateString + "Nợ nghiệp chướng/Karmic Debts " + returnKarmicDebts(karmic_string)+ "\n\n" + MaturityNumber + RationalNumber + "Số còn thiếu/Karmic Lessons " + karmiclessons + "\n\n" + BalanceNumber + HiddenPassionNumber + Confidence + "Thử thách/Challenges " + returnChallenge(challenge_string) + "\n\n" + "Chu kỳ đỉnh cao/Pinnacles " + returnPinnacle(pinnacle_string) + "\n\n" + "Vòng đời/Life Path Periods " + lifepathperiods + "\n\n" + "Cầu nối đường đời - Số mệnh/Life Path - Expression Bridge number " + bridge1.toString() + "\n\n" + "Cầu nối Nội Tâm - Nhân cách/Heart's Desire - Personality Bridge number " + bridge2.toString() +  "\n\n"+ "Elements:\n\n" +final_elements_string  +"\n\n" + FinalFullName + ShortNameTotals + PsychoMatrixString;
   
  
   
